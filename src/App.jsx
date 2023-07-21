@@ -18,7 +18,7 @@ const App = () => {
 
   const params = {
     headers: {
-      Authorization: 'Bearer a6a3aac0-278d-11ee-bc9b-45d49a09d234'
+      Authorization: import.meta.env.VITE_API_KEY
     }
   }
   
